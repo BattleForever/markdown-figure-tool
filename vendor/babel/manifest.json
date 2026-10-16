@@ -1,0 +1,17 @@
+{
+  "version": "7.28.5",
+  "files": [
+    {
+      "filename": "babel.min.js",
+      "url": "https://cdn.jsdelivr.net/npm/@babel/standalone@7.28.5/babel.min.js",
+      "bytes": 3126120,
+      "sha256": "f72cb977ba7831ffb8160a4f5b74dda91567e11ec09665d6c8fc8b7dc1ab5eaf"
+    },
+    {
+      "filename": "LICENSE",
+      "url": "https://cdn.jsdelivr.net/npm/@babel/standalone@7.28.5/LICENSE",
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    }
+  ]
+}

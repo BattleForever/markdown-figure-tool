@@ -1,0 +1,23 @@
+{
+  "version": "10.27.2",
+  "files": [
+    {
+      "filename": "preact.umd.js",
+      "url": "https://cdn.jsdelivr.net/npm/preact@10.27.2/dist/preact.umd.js",
+      "bytes": 11363,
+      "sha256": "c4f1db5a7db8fdc142158e13687c24a4376cbd8eafdbc5b924da0f5b048aacf9"
+    },
+    {
+      "filename": "hooks.umd.js",
+      "url": "https://cdn.jsdelivr.net/npm/preact@10.27.2/hooks/dist/hooks.umd.js",
+      "bytes": 3906,
+      "sha256": "c2a0121123419a0788e7a3e0adde79f9f9dc9d455c918abbfe6f74651b4be054"
+    },
+    {
+      "filename": "LICENSE",
+      "url": "https://cdn.jsdelivr.net/npm/preact@10.27.2/LICENSE",
+      "bytes": 1087,
+      "sha256": "1fe6958409c8c257a70c587a18b6f7f412b179b456630790d30b2ec9a8e4b7d4"
+    }
+  ]
+}

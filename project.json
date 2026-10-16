@@ -1,0 +1,7 @@
+{
+  "name": "Markdown Figure Tool",
+  "version": "0.3.1",
+  "license": "MIT",
+  "privacy": "Offline rendering; no telemetry or document upload",
+  "release_policy": "Immutable versioned portable releases"
+}

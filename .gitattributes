@@ -1,0 +1,3 @@
+* text=auto eol=lf whitespace=-blank-at-eof
+*.cmd text eol=crlf
+vendor/** -text -whitespace

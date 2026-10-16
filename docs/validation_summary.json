@@ -1,0 +1,119 @@
+{
+  "version": "0.3.1",
+  "unit_checks": 35,
+  "groups": [
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 2.55
+    },
+    {
+      "command": [
+        "tests/repro_native_drop.py"
+      ],
+      "returncode": 0,
+      "seconds": 2.94
+    },
+    {
+      "command": [
+        "tests/gui_stress.py"
+      ],
+      "returncode": 0,
+      "seconds": 11.47
+    },
+    {
+      "command": [
+        "tests/gui_smoke.py"
+      ],
+      "returncode": 0,
+      "seconds": 1.11
+    },
+    {
+      "command": [
+        "tests/gui_convert.py"
+      ],
+      "returncode": 0,
+      "seconds": 8.7
+    },
+    {
+      "command": [
+        "tests/gui_cancel_close.py"
+      ],
+      "returncode": 0,
+      "seconds": 1.31
+    },
+    {
+      "command": [
+        "tests/isolation_regression.py"
+      ],
+      "returncode": 0,
+      "seconds": 13.58
+    },
+    {
+      "command": [
+        "tests/integration.py"
+      ],
+      "returncode": 0,
+      "seconds": 10.92
+    },
+    {
+      "command": [
+        "tests/render_boundaries.py"
+      ],
+      "returncode": 0,
+      "seconds": 6.88
+    },
+    {
+      "command": [
+        "tests/component_rendering.py"
+      ],
+      "returncode": 0,
+      "seconds": 4.33
+    },
+    {
+      "command": [
+        "tests/packaged_smoke.py"
+      ],
+      "returncode": 0,
+      "seconds": 6.27
+    },
+    {
+      "command": [
+        "tests/gui_stress.py",
+        "--packaged"
+      ],
+      "returncode": 0,
+      "seconds": 8.2
+    },
+    {
+      "command": [
+        "tests/packaged_batch_errors.py"
+      ],
+      "returncode": 0,
+      "seconds": 3.05
+    },
+    {
+      "command": [
+        "tests/packaged_components.py"
+      ],
+      "returncode": 0,
+      "seconds": 10.7
+    },
+    {
+      "command": [
+        "tests/portable_relocation.py"
+      ],
+      "returncode": 0,
+      "seconds": 26.34
+    }
+  ]
+}

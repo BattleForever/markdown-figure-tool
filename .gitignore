@@ -1,0 +1,17 @@
+.venv/
+build/
+releases/
+data/
+tests/artifacts/
+__pycache__/
+*.pyc
+*.log
+*.dmp
+.cache/
+.env
+.env.*
+browser/
+*_图像版*.md
+*_图像版*_assets/
+conversion*.json
+settings.json

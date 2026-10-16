@@ -1,0 +1,14 @@
+{
+  "version": "0.3.1",
+  "executable": "releases/v0.3.1/MarkdownFigureTool.exe",
+  "exe_sha256": "8c7bfaa5ad103b799ea2e9f80e9eee6aa6d6d0eee020f7fea18b94821afbe15e",
+  "archive": "releases/MarkdownFigureTool-v0.3.1-windows-x64-portable.zip",
+  "archive_sha256": "d971de3d4c309160fada3375cd4e2c9c724657269b5287cffcd826c7f36001a5",
+  "file_count": 1436,
+  "uncompressed_bytes": 425308885,
+  "browser": {
+    "name": "Chromium Headless Shell",
+    "revision": "1228",
+    "version": "149.0.7827.55"
+  }
+}
