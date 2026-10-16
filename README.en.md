@@ -1,6 +1,8 @@
 # Markdown Figure Tool
 
-An offline Windows desktop tool that renders HTML, SVG, Canvas, Mermaid and supported exported layout components inside Markdown into PNG images. It writes a new Markdown document and an image directory beside the source, preserving the original and previous outputs.
+An offline Windows desktop tool for restoring the visual content of **conversations downloaded or exported from the ChatGPT website**. It focuses on HTML, SVG, Canvas, Mermaid and supported layout components that Markdown readers cannot display directly, aiming to reproduce their appearance in the original conversation page.
+
+The tool executes and renders this content in a local browser, saves the results as PNG images, and embeds them in a new Markdown document for reading in Typora or another Markdown reader. Surrounding text and ordinary programming examples are preserved. The new document and its image directory are written beside the source without overwriting the original or previous outputs.
 
 ## Portable download
 
@@ -8,9 +10,7 @@ Download the Windows x64 portable ZIP from [Releases](https://github.com/BattleF
 
 Drag Markdown files into the window and start conversion. Read the resulting `_图像版.md` file in Typora or another Markdown reader. Keep its matching `_assets` folder when moving it. Existing files are never overwritten; repeated runs use numbered names.
 
-Move the entire application folder to another computer. Optional shortcut and context-menu scripts use the current folder; run them again after relocating the app. Runtime settings, logs and jobs live in the adjacent `data/` folder. Official downloads contain no runtime data; remove this folder before sharing a used copy.
-
-Supported component syntax is compiled locally, including expressions, template strings, each/if directives and DIL state. This is an independent compatibility implementation, not a proprietary platform renderer. PNG output captures the default state; arbitrary React/Vue applications and missing private component definitions are not reconstructed.
+Supported component syntax is compiled locally, including expressions, template strings, each/if directives and DIL state. This is an independent compatibility implementation and does not use ChatGPT's private runtime. Fidelity depends on what the export contains: missing styles, private component definitions and historical interaction states cannot be reconstructed, so pixel-for-pixel reproduction is not guaranteed. PNG output captures the default state; arbitrary React/Vue applications are not reconstructed.
 
 ## Development
 
